@@ -8,4 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'Zend\\' => $vendorDir . '/zendframework/zendframework/library/',
     'ZendTest\\' => $vendorDir . '/zendframework/zendframework/tests/',
+    'Symfony\\Component\\Console\\' => $vendorDir . '/symfony/console/',
+    'Doctrine\\Common' => $vendorDir . '/doctrine/common/lib/',
+    'DoctrineModule\\' => $vendorDir . '/doctrine/doctrine-module/src/',
+    'DoctrineModuleTest\\' => $vendorDir . '/doctrine/doctrine-module/tests/',
 );

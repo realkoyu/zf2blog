@@ -8,7 +8,8 @@
 
 namespace Front\Controller;
 
+use Zend\Mvc\Controller\AbstractActionController;
 
-class baseController {
+class BaseController extends  AbstractActionController{
 
 }

@@ -7,6 +7,11 @@
  */
 namespace Front\Controller;
 
-class IndexController extends
+use Zend\View\Model\ViewModel;
 
+class IndexController extends BaseController{
+    public function indexAction()
+    {
+        return new ViewModel();
+    }
 }

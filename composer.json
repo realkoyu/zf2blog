@@ -3,6 +3,7 @@
     "description": "Blog with Zend Framework 2",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": ">2.1.3"
+        "zendframework/zendframework": ">2.1.3",
+        "doctrine/doctrine-module": "0.*"
     }
 }
