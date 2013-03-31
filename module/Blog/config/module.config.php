@@ -88,4 +88,18 @@ return array(
             __DIR__ . '/../view',
         ),
     ),
+    'doctrine' => array(
+        'driver' => array(
+            'Front_driver' => array(
+                'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
+                'cache' => 'array',
+                'paths' => array(__DIR__ . '/../src/Entity')
+            ),
+            'orm_default' => array(
+                'drivers' => array(
+                    'Entity' => 'Front_driver'
+                )
+            )
+        )
+    )
 );

@@ -1,15 +1,32 @@
 <?php
 /**
- * Created by JetBrains PhpStorm.
+ * Created by Victor
  * User: 俞
  * Date: 13-3-31
  * Time: 下午8:57
- * To change this template use File | Settings | File Templates.
  */
 
 namespace Entity\Blog;
 
+/**
+ * @Entity @Table(name="Blog")
+ */
+class Blog extends BaseEntity{
 
-class Blog {
-
+    /**
+     * @Column(type="string")
+     */
+    protected $title;
+    /**
+     * @Column(type="string")
+     */
+    protected $content;
+    /**
+     * @Column(type="datetime")
+     */
+    protected $created_at;
+    /**
+     * @Column(type="string")
+     */
+    protected $keywords;
 }
